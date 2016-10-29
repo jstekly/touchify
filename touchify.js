@@ -1,0 +1,3 @@
+var touchify = (function () {
+    return {};
+})();
