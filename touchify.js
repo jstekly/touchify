@@ -1,14 +1,3 @@
-/* todo:
- * gestures if a binding have two active actions
- * velocity, px per ms
- * db-tap
- * move with 2 or 3 fingers
- * cleanup multi-touch on-end
- * drag&drop
- * swipe
- * unbind events
- * zoomed site support
- */
 var touchify = (function () {
     /**
      * helper - bind a function to a list of event-names
