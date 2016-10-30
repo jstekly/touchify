@@ -43,3 +43,14 @@ touchify
         */
     });
     touchify.unbind(element);
+    
+    // action parameter contains:
+    action = {
+        layerX: 0, layerY: 0, // x,y position on the element
+        startX: 0, startY: 0, // start position
+        lastX: 0, lastY: 0, // last position
+        totalX: 0, totalY: 0, // total absolute movement
+        diffX: 0, diffY: 0, // start-end position
+        userData: null // filled with the return value of 'start'
+        //... some more 
+    };
